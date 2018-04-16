@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA9640D2085278D005F4797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9640C2085278D005F4797 /* AppDelegate.swift */; };
+		AEA9640F2085278D005F4797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9640E2085278D005F4797 /* ViewController.swift */; };
+		AEA964122085278D005F4797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA964102085278D005F4797 /* Main.storyboard */; };
+		AEA964142085278F005F4797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA964132085278F005F4797 /* Assets.xcassets */; };
+		AEA964172085278F005F4797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA964152085278F005F4797 /* LaunchScreen.storyboard */; };
+		AEA964222085278F005F4797 /* SwipeMenu_Swift4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA964212085278F005F4797 /* SwipeMenu_Swift4Tests.swift */; };
+		AEA9642D2085278F005F4797 /* SwipeMenu_Swift4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9642C2085278F005F4797 /* SwipeMenu_Swift4UITests.swift */; };
+		AEA9643B20854881005F4797 /* a.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA9643A20854881005F4797 /* a.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA9641E2085278F005F4797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA964012085278D005F4797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA964082085278D005F4797;
+			remoteInfo = "SwipeMenu-Swift4";
+		};
+		AEA964292085278F005F4797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA964012085278D005F4797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA964082085278D005F4797;
+			remoteInfo = "SwipeMenu-Swift4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEA964092085278D005F4797 /* SwipeMenu-Swift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwipeMenu-Swift4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA9640C2085278D005F4797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEA9640E2085278D005F4797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEA964112085278D005F4797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA964132085278F005F4797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA964162085278F005F4797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEA964182085278F005F4797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA9641D2085278F005F4797 /* SwipeMenu-Swift4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwipeMenu-Swift4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA964212085278F005F4797 /* SwipeMenu_Swift4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMenu_Swift4Tests.swift; sourceTree = "<group>"; };
+		AEA964232085278F005F4797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA964282085278F005F4797 /* SwipeMenu-Swift4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwipeMenu-Swift4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA9642C2085278F005F4797 /* SwipeMenu_Swift4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMenu_Swift4UITests.swift; sourceTree = "<group>"; };
+		AEA9642E2085278F005F4797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA9643A20854881005F4797 /* a.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA964062085278D005F4797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA9641A2085278F005F4797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA964252085278F005F4797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA964002085278D005F4797 = {
+			isa = PBXGroup;
+			children = (
+				AEA9640B2085278D005F4797 /* SwipeMenu-Swift4 */,
+				AEA964202085278F005F4797 /* SwipeMenu-Swift4Tests */,
+				AEA9642B2085278F005F4797 /* SwipeMenu-Swift4UITests */,
+				AEA9640A2085278D005F4797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA9640A2085278D005F4797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA964092085278D005F4797 /* SwipeMenu-Swift4.app */,
+				AEA9641D2085278F005F4797 /* SwipeMenu-Swift4Tests.xctest */,
+				AEA964282085278F005F4797 /* SwipeMenu-Swift4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA9640B2085278D005F4797 /* SwipeMenu-Swift4 */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9640C2085278D005F4797 /* AppDelegate.swift */,
+				AEA9640E2085278D005F4797 /* ViewController.swift */,
+				AEA964102085278D005F4797 /* Main.storyboard */,
+				AEA964132085278F005F4797 /* Assets.xcassets */,
+				AEA9643A20854881005F4797 /* a.jpeg */,
+				AEA964152085278F005F4797 /* LaunchScreen.storyboard */,
+				AEA964182085278F005F4797 /* Info.plist */,
+			);
+			path = "SwipeMenu-Swift4";
+			sourceTree = "<group>";
+		};
+		AEA964202085278F005F4797 /* SwipeMenu-Swift4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA964212085278F005F4797 /* SwipeMenu_Swift4Tests.swift */,
+				AEA964232085278F005F4797 /* Info.plist */,
+			);
+			path = "SwipeMenu-Swift4Tests";
+			sourceTree = "<group>";
+		};
+		AEA9642B2085278F005F4797 /* SwipeMenu-Swift4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9642C2085278F005F4797 /* SwipeMenu_Swift4UITests.swift */,
+				AEA9642E2085278F005F4797 /* Info.plist */,
+			);
+			path = "SwipeMenu-Swift4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA964082085278D005F4797 /* SwipeMenu-Swift4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA964312085278F005F4797 /* Build configuration list for PBXNativeTarget "SwipeMenu-Swift4" */;
+			buildPhases = (
+				AEA964052085278D005F4797 /* Sources */,
+				AEA964062085278D005F4797 /* Frameworks */,
+				AEA964072085278D005F4797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwipeMenu-Swift4";
+			productName = "SwipeMenu-Swift4";
+			productReference = AEA964092085278D005F4797 /* SwipeMenu-Swift4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA9641C2085278F005F4797 /* SwipeMenu-Swift4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA964342085278F005F4797 /* Build configuration list for PBXNativeTarget "SwipeMenu-Swift4Tests" */;
+			buildPhases = (
+				AEA964192085278F005F4797 /* Sources */,
+				AEA9641A2085278F005F4797 /* Frameworks */,
+				AEA9641B2085278F005F4797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA9641F2085278F005F4797 /* PBXTargetDependency */,
+			);
+			name = "SwipeMenu-Swift4Tests";
+			productName = "SwipeMenu-Swift4Tests";
+			productReference = AEA9641D2085278F005F4797 /* SwipeMenu-Swift4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEA964272085278F005F4797 /* SwipeMenu-Swift4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA964372085278F005F4797 /* Build configuration list for PBXNativeTarget "SwipeMenu-Swift4UITests" */;
+			buildPhases = (
+				AEA964242085278F005F4797 /* Sources */,
+				AEA964252085278F005F4797 /* Frameworks */,
+				AEA964262085278F005F4797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA9642A2085278F005F4797 /* PBXTargetDependency */,
+			);
+			name = "SwipeMenu-Swift4UITests";
+			productName = "SwipeMenu-Swift4UITests";
+			productReference = AEA964282085278F005F4797 /* SwipeMenu-Swift4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA964012085278D005F4797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Humberto Puccinelli";
+				TargetAttributes = {
+					AEA964082085278D005F4797 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AEA9641C2085278F005F4797 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AEA964082085278D005F4797;
+					};
+					AEA964272085278F005F4797 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AEA964082085278D005F4797;
+					};
+				};
+			};
+			buildConfigurationList = AEA964042085278D005F4797 /* Build configuration list for PBXProject "SwipeMenu-Swift4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA964002085278D005F4797;
+			productRefGroup = AEA9640A2085278D005F4797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA964082085278D005F4797 /* SwipeMenu-Swift4 */,
+				AEA9641C2085278F005F4797 /* SwipeMenu-Swift4Tests */,
+				AEA964272085278F005F4797 /* SwipeMenu-Swift4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA964072085278D005F4797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA9643B20854881005F4797 /* a.jpeg in Resources */,
+				AEA964172085278F005F4797 /* LaunchScreen.storyboard in Resources */,
+				AEA964142085278F005F4797 /* Assets.xcassets in Resources */,
+				AEA964122085278D005F4797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA9641B2085278F005F4797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA964262085278F005F4797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA964052085278D005F4797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA9640F2085278D005F4797 /* ViewController.swift in Sources */,
+				AEA9640D2085278D005F4797 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA964192085278F005F4797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA964222085278F005F4797 /* SwipeMenu_Swift4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA964242085278F005F4797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA9642D2085278F005F4797 /* SwipeMenu_Swift4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA9641F2085278F005F4797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA964082085278D005F4797 /* SwipeMenu-Swift4 */;
+			targetProxy = AEA9641E2085278F005F4797 /* PBXContainerItemProxy */;
+		};
+		AEA9642A2085278F005F4797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA964082085278D005F4797 /* SwipeMenu-Swift4 */;
+			targetProxy = AEA964292085278F005F4797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEA964102085278D005F4797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA964112085278D005F4797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA964152085278F005F4797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA964162085278F005F4797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEA9642F2085278F005F4797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEA964302085278F005F4797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA964322085278F005F4797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = "SwipeMenu-Swift4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.SwipeMenu-Swift4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEA964332085278F005F4797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = "SwipeMenu-Swift4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.SwipeMenu-Swift4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEA964352085278F005F4797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = "SwipeMenu-Swift4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.SwipeMenu-Swift4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeMenu-Swift4.app/SwipeMenu-Swift4";
+			};
+			name = Debug;
+		};
+		AEA964362085278F005F4797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = "SwipeMenu-Swift4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.SwipeMenu-Swift4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeMenu-Swift4.app/SwipeMenu-Swift4";
+			};
+			name = Release;
+		};
+		AEA964382085278F005F4797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = "SwipeMenu-Swift4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.SwipeMenu-Swift4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwipeMenu-Swift4";
+			};
+			name = Debug;
+		};
+		AEA964392085278F005F4797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = "SwipeMenu-Swift4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.SwipeMenu-Swift4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwipeMenu-Swift4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA964042085278D005F4797 /* Build configuration list for PBXProject "SwipeMenu-Swift4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA9642F2085278F005F4797 /* Debug */,
+				AEA964302085278F005F4797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA964312085278F005F4797 /* Build configuration list for PBXNativeTarget "SwipeMenu-Swift4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA964322085278F005F4797 /* Debug */,
+				AEA964332085278F005F4797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA964342085278F005F4797 /* Build configuration list for PBXNativeTarget "SwipeMenu-Swift4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA964352085278F005F4797 /* Debug */,
+				AEA964362085278F005F4797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA964372085278F005F4797 /* Build configuration list for PBXNativeTarget "SwipeMenu-Swift4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA964382085278F005F4797 /* Debug */,
+				AEA964392085278F005F4797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA964012085278D005F4797 /* Project object */;
+}
